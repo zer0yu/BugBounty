@@ -1,0 +1,53 @@
+[
+  {
+    "ProfileName": "Secrets_Response",
+    "Enabled": true,
+    "Scanner": 2,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,aws_access",
+      "true,Or,aws_secret",
+      "true,Or,ListBucketResult",
+      "true,Or,Authorization:",
+      "true,Or,RSA PRIVATE",
+      "true,Or,ssh-rsa AA"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 1,
+    "Scope": 2,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "Secrets_Response",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "InsertionPointType": [],
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]

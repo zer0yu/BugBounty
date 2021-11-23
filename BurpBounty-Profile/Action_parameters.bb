@@ -1,0 +1,51 @@
+[
+  {
+    "ProfileName": "Action_parameters",
+    "Enabled": true,
+    "Scanner": 3,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,GET Parameter,Value,^read$|^write$|^edit$",
+      "true,Or,POST Parameter,Value,^read$|^write$|^edit$",
+      "true,Or,XML Parameter,Value,^read$|^write$|^edit$",
+      "true,Or,JSON Parameter,Value,^read$|^write$|^edit$",
+      "true,Or,POST Multipart,Value,^read$|^write$|^edit$",
+      "true,Or,XML Multipart,Name,^read$|^write$|^edit$"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 2,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "Action_parameters",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "Try to change read for write, etc.",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "Scanas": true,
+    "Scantype": 2,
+    "pathDiscovery": false
+  }
+]

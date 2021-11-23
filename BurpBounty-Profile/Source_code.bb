@@ -1,0 +1,70 @@
+[
+  {
+    "ProfileName": "Source_code",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@burpbounty",
+    "Payloads": [
+      "~"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [
+      "true,,\u003c?php",
+      "true,Or,\u003c% @Page",
+      "true,Or,Language\u003d\"C#\"",
+      "true,Or,\u003c%@",
+      "true,Or,out.write(",
+      "true,Or,out.print(",
+      "true,Or,\u003c%\u003d",
+      "true,Or,out.println("
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": true,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": true,
+    "ResponseCode": "200",
+    "NegativeRC": false,
+    "urlextension": "php,asp,aspx,jsp",
+    "isurlextension": true,
+    "NegativeUrlExtension": false,
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 1,
+    "MaxRedir": 0,
+    "payloadPosition": 2,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "Source_code",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      37
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]

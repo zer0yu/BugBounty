@@ -1,0 +1,51 @@
+[
+  {
+    "ProfileName": "URL_Path_as_a_Value",
+    "Enabled": true,
+    "Scanner": 3,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,GET Parameter,Value,.*\\.[a-zA-Z]{3,4}($|\\?.*)",
+      "true,Or,POST Parameter,Value,.*\\.[a-zA-Z]{3,4}($|\\?.*)",
+      "true,Or,JSON Parameter,Value,.*\\.[a-zA-Z]{3,4}($|\\?.*)",
+      "true,Or,XML Parameter,Value,.*\\.[a-zA-Z]{3,4}($|\\?.*)",
+      "true,Or,POST Multipart,Value,.*\\.[a-zA-Z]{3,4}($|\\?.*)",
+      "true,Or,XML Multipart,Value,.*\\.[a-zA-Z]{3,4}($|\\?.*)"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 2,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "URL_Path_as_a_Value",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "Scanas": true,
+    "Scantype": 2,
+    "pathDiscovery": false
+  }
+]

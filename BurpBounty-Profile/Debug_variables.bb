@@ -1,0 +1,52 @@
+[
+  {
+    "ProfileName": "Debug_variables",
+    "Enabled": true,
+    "Scanner": 2,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,var debug \u003d ",
+      "true,Or,var _debug \u003d ",
+      "true,Or,var __debug \u003d ",
+      "true,Or,var debug_ \u003d ",
+      "true,Or,var debug__ \u003d "
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": true,
+    "ContentType": "application/javascript",
+    "NegativeCT": true,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "js",
+    "isurlextension": true,
+    "NegativeUrlExtension": true,
+    "MatchType": 1,
+    "Scope": 2,
+    "RedirType": 1,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "Debug_variables",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "InsertionPointType": [],
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]

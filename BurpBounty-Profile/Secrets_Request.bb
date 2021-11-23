@@ -1,0 +1,51 @@
+[
+  {
+    "ProfileName": "Secrets_Request",
+    "Enabled": true,
+    "Scanner": 3,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,All Request,Name,access",
+      "true,Or,All Request,Name,aws_secret",
+      "true,Or,All Request,Name,ListBucketResult",
+      "true,Or,All Request,Name,Authorization:",
+      "true,Or,All Request,Name,RSA PRIVATE",
+      "true,Or,All Request,Name,ssh-rsa AA"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "Secrets_Request",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "Scanas": false,
+    "Scantype": 2,
+    "pathDiscovery": false
+  }
+]

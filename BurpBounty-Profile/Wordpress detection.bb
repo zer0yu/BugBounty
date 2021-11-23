@@ -1,0 +1,52 @@
+[
+  {
+    "ProfileName": "Wordpress detection",
+    "Enabled": true,
+    "Scanner": 2,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,/wp-content/",
+      "true,Or,xmlrpc.php",
+      "true,Or,/wp-admin/",
+      "true,Or,/wp-includes/"
+    ],
+    "Tags": [
+      "wordpress",
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 1,
+    "Scope": 1,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "Wordpress detection",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "InsertionPointType": [],
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]

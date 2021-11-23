@@ -1,10 +1,13 @@
 All
+test
+wordpress
+Open Redirect
+RCE
+XSS
+SSRF
+SQLI
 Collaborator
-Graphql
-InformationDisclosure
-SQLi
-regex
-JWT
-PathTraversal
-API_Keys
-apikeys
+Joomla
+XXE
+Mobile
+Cloud

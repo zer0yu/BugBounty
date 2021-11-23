@@ -1,0 +1,50 @@
+[
+  {
+    "ProfileName": "Token_Parameters",
+    "Enabled": true,
+    "Scanner": 3,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,GET Parameter,Name,.*token.*",
+      "true,Or,POST Parameter,Name,.*token.*",
+      "true,Or,JSON Parameter,Name,.*token.*",
+      "true,Or,XML Parameter,Name,.*token.*",
+      "true,Or,POST Multipart,Name,.*token.*"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 2,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "Token_Parameters",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "Scanas": true,
+    "Scantype": 2,
+    "pathDiscovery": false
+  }
+]

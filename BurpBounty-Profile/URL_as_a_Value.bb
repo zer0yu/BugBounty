@@ -1,0 +1,51 @@
+[
+  {
+    "ProfileName": "URL_as_a_Value",
+    "Enabled": true,
+    "Scanner": 3,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,GET Parameter,Value,https?://.*",
+      "true,Or,POST Parameter,Value,https?://.*",
+      "true,Or,JSON Parameter,Value,https?://.*",
+      "true,Or,XML Parameter,Value,https?://.*",
+      "true,Or,POST Multipart,Value,https?://.*",
+      "true,Or,XML Multipart,Value,https?://.*"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 2,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "URL_as_a_Value",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "Scanas": true,
+    "Scantype": 2,
+    "pathDiscovery": false
+  }
+]

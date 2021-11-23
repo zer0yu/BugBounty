@@ -1,0 +1,50 @@
+[
+  {
+    "ProfileName": "OAuth_parameters",
+    "Enabled": true,
+    "Scanner": 3,
+    "Author": "@burpbounty",
+    "UrlEncode": false,
+    "Grep": [
+      "true,,GET Parameter,Name,^redirect_uri$",
+      "true,Or,GET Parameter,Name,^client_id$",
+      "true,Or,GET Parameter,Name,^grant_type$",
+      "true,Or,GET Parameter,Name,^response_type$",
+      "true,Or,GET Parameter,Name,^oidc$"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "isTime": false,
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 2,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "payloadPosition": 0,
+    "grepsFile": "",
+    "IssueName": "OAuth_parameters",
+    "IssueSeverity": "Information",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "References:\u003cbr/\u003e\u003cbr\u003e\n* https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/OAuth",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "VariationAttributes": [],
+    "Scanas": true,
+    "Scantype": 2,
+    "pathDiscovery": false
+  }
+]

@@ -9,3 +9,4 @@ BurpBounty-Profile文件是我整合了目前所有的开源Profile，外加自�
 ### 0x02 Payload
 
 Payload文件夹下的的文件更具有针对性，针对每种场景，我会添加对应的Fuzz方法已经对应的判别方式。之所以独立于之前的项目[Berserker](https://github.com/zer0yu/Berserker)是因为这里注重方法论，而Berserker则更注重payload集合的全面，随后可结合使用。
+

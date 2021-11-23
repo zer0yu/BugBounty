@@ -1,0 +1,73 @@
+[
+  {
+    "ProfileName": "CRLF_append",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@burpbounty",
+    "Payloads": [
+      "%0D%0ASet-Cookie:%20mycookie\u003dmyvalue"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [
+      "true,,^Set-Cookie:\\smycookie\u003dmyvalue"
+    ],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": true,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 2,
+    "Scope": 0,
+    "RedirType": 4,
+    "MaxRedir": 3,
+    "payloadPosition": 2,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "CRLF_append",
+    "IssueSeverity": "Medium",
+    "IssueConfidence": "Certain",
+    "IssueDetail": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CRLF%20Injection",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      65,
+      36,
+      1,
+      6,
+      5,
+      35,
+      34,
+      64,
+      0,
+      3,
+      4
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]
